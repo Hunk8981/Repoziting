@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Cart extends Model
 {
-    use HasFactory
+    use HasFactory;
 
     protected $table = "carts";
 
@@ -24,7 +24,7 @@ class Cart extends Model
     public function User(){
         return $this->hasOne(User::class, 'id','Id_user');
     }
-    
+
     public function Product(){
         return $this->hasOne(Product::class, 'id', 'Id_product');
     }
