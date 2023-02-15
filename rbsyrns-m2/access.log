@@ -1,0 +1,4 @@
+192.168.2.52 - - [14/Feb/2023:02:52:23 -0800] "GET http://rbsyrns-m2.wsr.ru/ HTTP/1.1" 200 624 "http://wsr.ru/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+192.168.2.52 - - [14/Feb/2023:02:52:23 -0800] "GET http://rbsyrns-m2.wsr.ru/icons/blank.gif HTTP/1.1" 200 376 "http://rbsyrns-m2.wsr.ru/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+192.168.2.52 - - [14/Feb/2023:02:52:23 -0800] "GET http://rbsyrns-m2.wsr.ru/icons/unknown.gif HTTP/1.1" 200 473 "http://rbsyrns-m2.wsr.ru/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+192.168.2.52 - - [14/Feb/2023:02:52:23 -0800] "GET http://rbsyrns-m2.wsr.ru/favicon.ico HTTP/1.1" 404 440 "http://rbsyrns-m2.wsr.ru/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
