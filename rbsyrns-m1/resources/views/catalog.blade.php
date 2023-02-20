@@ -20,11 +20,11 @@
         <div class="row">
         @foreach($products as $p)
         
-            <div class="col-lg-4">
-                <div><img src="/public/img/{{$p->photo}}" alt="" class="img-fluid"></div>
-                <p>{{$p->name}}</p>
-                <p>{{$p->price}}</p>
-                @guest @else<a href="/public/product/{{$p->id}}">КУПИ</a>@endguest
+            <div class="catalog col-lg-4">
+                <div class="catalog_image"><img class="catal_img" src="/public/img/{{$p->photo}}" alt="" class="img-fluid"></div>
+                <p class ="catalog_title">{{$p->name}}</p>
+                <p class ="catalog_prices">{{$p->price}}</p>
+                @guest @else<a href="/public/product/{{$p->id}}">Купить</a>@endguest
             </div>
         
         @endforeach

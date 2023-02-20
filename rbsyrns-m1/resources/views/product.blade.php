@@ -6,7 +6,7 @@
         <div class="d-flex">
             <img src="/public/img/{{$product->photo}}" alt="">
             <p>{{$product->Category->name}}</p>
-            <a href="/public/cart/add/{{$product->id}}">Купи2</a>
+            <a href="/public/cart/add/{{$product->id}}">Купить</a>
         </div>
     </div>
 @endsection

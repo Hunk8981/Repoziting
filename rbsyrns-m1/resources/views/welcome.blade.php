@@ -21,9 +21,6 @@
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <h1 color="blue">О нас</h1>
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-
-
-
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facilis iste, magni maiores sapiente iure hic ex unde perferendis quis minima harum mollitia reprehenderit aliquam sed possimus commodi sint veritatis.</p>
                 <img src="/public/img/printer1.jpg" width="250" height="250" alt="">
             </div>
