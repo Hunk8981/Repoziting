@@ -10,16 +10,16 @@
     <title>{{ config('app.name', 'Copy Star') }}</title>
 
     <!-- Fonts -->
+    <link href="/resources/css/app.css" rel="stylesheet">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <!-- Scripts -->
-    <link href="/resources/css/app.css" rel="stylesheet">
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md shadow-sm bg-green">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="/public/img/printer1.jpg" width="65"  height="50" alt="">
@@ -31,8 +31,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
-                        <li class="menu"><a href="/public/catalog">Каталог </a></li>
-                        <li class="menu"><a color="#000000" href="/public/catalog">О нас</a></li>
+                        <li><a class="menu" href="/public/catalog">Каталог </a></li>
+                        <li><a class="menu" href="/public/map">Где нас найти</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

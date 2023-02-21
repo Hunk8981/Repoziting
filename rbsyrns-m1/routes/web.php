@@ -34,3 +34,5 @@ Route::get('/cart/minus{id}', [App\Http\Controllers\CartController::class, 'minu
 Route::get('/cart/plus{id}', [App\Http\Controllers\CartController::class, 'plus']);
 
 Route::get('/cart/pay{id}', [App\Http\Controllers\CartController::class, 'pay']);
+
+Route::view('/map', 'map')->name("map");

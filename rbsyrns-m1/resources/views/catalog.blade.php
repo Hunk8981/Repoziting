@@ -24,7 +24,7 @@
                 <div class="catalog_image"><img class="catal_img" src="/public/img/{{$p->photo}}" alt="" class="img-fluid"></div>
                 <p class ="catalog_title">{{$p->name}}</p>
                 <p class ="catalog_prices">{{$p->price}}</p>
-                @guest @else<a href="/public/product/{{$p->id}}">Купить</a>@endguest
+                @guest @else<a class="buyn" href="/public/product/{{$p->id}}">Купить</a>@endguest
             </div>
         
         @endforeach
