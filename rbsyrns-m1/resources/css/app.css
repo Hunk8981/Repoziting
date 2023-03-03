@@ -9,7 +9,7 @@
                         margin-top: 20px;
                         height: 450px;
                         width: 150px;
-                        border: 2px solid black;
+                        border: 15px solid black;
                     }
 
                     .textic {
@@ -99,7 +99,7 @@
                     }
 
                     .textic {
-                        border: 2px solid black;
+                        border: 22px solid black;
 
                     }
 
@@ -142,4 +142,35 @@
                         border: 4px solid black;
                         left: 300px;
 
+                    }
+                    .cartt{
+                        border: 3px solid #000000;
+                        font-size: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 20px;
+                    }
+
+                    .namec{
+                        margin-left: 12px;
+                        margin-top: 5px;
+                        color: #000000;
+                        text-decoration: none;
+                        font-weight: bold;
+                    }
+                    .simvol1{
+                        text-decoration: none;
+                        font-weight: bold;
+                        size: 20px;
+                        color: #000000;
+                        margin-right: 45px;
+                        right: 15px;
+                    }
+                    .simvol2{
+                        text-decoration: none;
+                        font-weight: bold;
+                        size: 20px;
+                        color: #000000;
+                        margin-right: 20px;
+                        left: 15px;
                     }

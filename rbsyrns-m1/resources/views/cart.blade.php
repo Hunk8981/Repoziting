@@ -3,13 +3,18 @@
 @section('content')
     <div class="container">
         <h1>Корзина</h1>
+
         @foreach($carts as $c)
-            <p>{{$c->Product->name}}</p>
-            <p>{{$c->count}}</p>
-            <p>{{$c->Product->price * $c->count}}</p>
-            <a href="/public/cart/minus/{{$c->id}}">-</a>
-            <a href="/public/cart/plus/{{$c->id}}">+</a>
+        <div class="cartt">
+            <p class="namec" >{{$c->Product->name}}</p>
+            <p class="cou">{{$c->count}}</p>
+            <p class="pri">{{$c->Product->price * $c->count}}</p>
+            <a class="simvol1" href="/public/cart/minus/{{$c->id}}">-</a>
+            <a class="simvol2"  href="/public/cart/plus/{{$c->id}}">+</a>
+        </div>
         @endforeach
-        <a href="/public/cart/pay/{{$carts[0]->id_basket}}">Оформить</a>
+
+        <a class="namec" href="#">Оформить</a>
+
     </div>
 @endsection

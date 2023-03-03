@@ -27,12 +27,18 @@ Route::get('/product/{id}', [App\Http\Controllers\ProductController::class, 'pro
 
 Route::get('/cart', [App\Http\Controllers\CartController::class, 'show']);
 
-Route::get('/cart/add{id}', [App\Http\Controllers\CartController::class, 'add']);
+Route::get('/cart/add/{id}', [App\Http\Controllers\CartController::class, 'add']);
 
-Route::get('/cart/minus{id}', [App\Http\Controllers\CartController::class, 'minus']);
+Route::get('/cart/minus/{id}', [App\Http\Controllers\CartController::class, 'minus']);
 
-Route::get('/cart/plus{id}', [App\Http\Controllers\CartController::class, 'plus']);
+Route::get('/cart/plus/{id}', [App\Http\Controllers\CartController::class, 'plus']);
 
-Route::get('/cart/pay{id}', [App\Http\Controllers\CartController::class, 'pay']);
+Route::get('/cart/pay/{id}', [App\Http\Controllers\CartController::class, 'pay']);
+
+Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('admin');
+
+Route::post('/admin/create_category', [App\Http\Controllers\AdminController::class, 'create_category'])->name('create_cat');
+
+Route::post('/admin/create_product', [App\Http\Controllers\AdminController::class, 'create_product'])->name('create_prod');
 
 Route::view('/map', 'map')->name("map");
